@@ -6,7 +6,5 @@
 
 project=otf-hermit
 
-all: $(project).tar.gz
-
-$(project).tar.gz: PKGBUILD $(project).install
-	tar -czvf $(project).tar.gz $^
+all:
+	makepkg --source
