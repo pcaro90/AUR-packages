@@ -3,7 +3,7 @@
 
 pkgname=otf-hermit
 pkgver=1.21
-pkgrel=1
+pkgrel=2
 depends=('fontconfig' 'xorg-font-utils')
 pkgdesc="A monospace font designed to be clear, pragmatic and very readable."
 arch=('any')
